@@ -23,7 +23,7 @@ header {
     font-size: 22px;
 }
 nav {
-    background-color: #730839;
+    background-color: #40120E;
     color:antiquewhite;
     font-family: optima, sans-serif;
     font-size: 18px;
@@ -80,7 +80,7 @@ footer {
         font-size: 28px;
     }
     nav {
-        background-color: #730839;
+        background-color: #40120E;
         color:antiquewhite;
         font-family: optima, sans-serif;
         font-size: 20px;
@@ -92,7 +92,7 @@ footer {
     }
     h1 {
         color: #BFA38A;
-       font-family: Optima;
+        font-family: Optima;
     }
     h2 {
         color: #BFA38A;
@@ -116,7 +116,7 @@ footer {
     footer {
         background-color: #733122;
         font-family: optima, sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         color: #BFA38A;
         text-align: center;
         padding: .5px;
