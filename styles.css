@@ -6,11 +6,121 @@ GreyKhaki: #BFA38A
 DustyPink:#BF705E
 ChocolateBrown: #733122
 DeepBrown: #40120E
-Purple: #591B43
+Purple: #730839
 */ 
 
 /* Global (base) MOBILE FIRST */
-
+@media (max-width: 600px) {
 body {
-    background-color: #bfa38a;
+    background-color: #AF791c;
+}
+header {
+    background-color: #755C00;
+    color: #BFA38A;
+    text-align: center;
+    padding: 10px;
+    font-family: optima, sans-serif;
+    font-size: 22px;
+}
+nav {
+    background-color: #730839;
+    color:antiquewhite;
+    font-family: optima, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+}
+h1 {
+    color: #BFA38A;
+   font-family: Optima;
+}
+h2 {
+    color: #BFA38A;
+    font-family: optima, sans-serif;
+}
+h3{
+    color: #AF791C;
+    font-family: optima, sans-serif;
+    background-color: #40120E;
+}
+p {
+    color: #BFA38A;
+    font-family: optima, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+ul {
+    color:#BFA38A;
+    padding: 0;
+}
+footer {
+    background-color: #733122;
+    font-family: optima, sans-serif;
+    font-size: 14px;
+    color: #BFA38A;
+    text-align: center;
+    padding: .5px;
+    margin-top: 20px;
+}
+}
+
+@media (min-width: 600px) {
+    body {
+        background-color: #AF791C;
+    }
+    header {
+        background-color: #755C00;
+        color: #BFA38A;
+        text-align: center;
+        padding: 20px;
+        font-family: optima, sans-serif;
+        font-size: 28px;
+    }
+    nav {
+        background-color: #730839;
+        color:antiquewhite;
+        font-family: optima, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 15px 30px;
+    }
+    h1 {
+        color: #BFA38A;
+       font-family: Optima;
+    }
+    h2 {
+        color: #BFA38A;
+        font-family: optima, sans-serif;
+    }
+    h3{
+        color: #AF791C;
+        font-family: optima, sans-serif;
+        background-color: #40120E;
+    }
+    p {
+        color: #BFA38A;
+        font-family: optima, sans-serif;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    ul {
+        color:#BFA38A;
+        padding: 0;
+    }
+    footer {
+        background-color: #733122;
+        font-family: optima, sans-serif;
+        font-size: 16px;
+        color: #BFA38A;
+        text-align: center;
+        padding: .5px;
+        margin-top: 20px;
+
+}
 }
